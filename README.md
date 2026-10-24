@@ -27,6 +27,6 @@
 
 ## Сборка
 
-Собирается GitHub Actions на каждый push в `main` (артефакт: zip + установщик Inno Setup). Для релиза поставьте тег вида `1.0.0` — будет создан черновик релиза с файлами.
+Собирается GitHub Actions на каждый push в `main` (артефакт: zip + установщик Inno Setup). Для релиза поставьте тег вида `1.0.0` (совпадающий с `version` в `buildspec.json`) — CI опубликует релиз с установщиком и zip.
 
 Основано на [obs-plugintemplate](https://github.com/obsproject/obs-plugintemplate). Лицензия GPL-2.0.
